@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="15dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="5sp">
+
+        <RelativeLayout
+            android:layout_width="@dimen/category_rv_item_size"
+            android:layout_height="@dimen/category_rv_item_size"
+            android:layout_gravity="center_vertical">
+
+            <com.android.internetradio.utils.SquareImageView
+                android:id="@+id/siv_fm_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_radio_small" />
+
+            <ImageView
+                android:id="@+id/ic_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_play_small" />
+
+            <View
+                android:id="@+id/v_line"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tv_fm_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/v_line"
+                android:background="@color/trans_black"
+                android:gravity="center"
+                android:maxLines="2"
+                android:minLines="2"
+                android:padding="2dp"
+                android:textColor="@color/white"
+                tools:text="Song Name" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

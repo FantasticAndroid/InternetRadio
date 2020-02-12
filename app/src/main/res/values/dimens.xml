@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spinner_channel_width">@dimen/_105sdp</dimen>
+    <dimen name="spinner_category_width">@dimen/_150sdp</dimen>
+    <dimen name="category_rv_item_size">@dimen/_90sdp</dimen>
+    <dimen name="text_size_station_name">@dimen/_18ssp</dimen>
+    <dimen name="text_size_station_label">@dimen/_16ssp</dimen>
+
+	<dimen name="three_grid_unit">@dimen/_16sdp</dimen>
+    <dimen name="one_and_a_half_grid_unit">@dimen/_8sdp</dimen>
+
+    <dimen name="spinner_divider_height">1dp</dimen>
+    <dimen name="spinner_text_size">@dimen/_14ssp</dimen>
+
+</resources>

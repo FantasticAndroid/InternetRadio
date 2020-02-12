@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        app:layout_anchorGravity="right|top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="vertical">
+
+            <com.android.internetradio.utils.SquareImageView
+                android:id="@+id/iv_staion_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_radio" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/black"
+                android:padding="3dp">
+
+                <com.android.internetradio.angmarch.views.NiceSpinner
+                    android:id="@+id/spinner_channel"
+                    android:layout_width="@dimen/spinner_channel_width"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:fadeScrollbars="false"
+                    android:layout_alignParentEnd="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:textSize="@dimen/spinner_text_size"
+                    app:arrowDrawable="@drawable/ic_arrow_down_24dp"
+                    app:backgroundSelector="@drawable/selector_nice_spinner"
+                    app:textTint="@color/white"
+                    tools:text="Hindi" />
+
+                <com.android.internetradio.angmarch.views.NiceSpinner
+                    android:id="@+id/spinner_category"
+                    android:layout_width="@dimen/spinner_category_width"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:textSize="@dimen/spinner_text_size"
+                    app:arrowDrawable="@drawable/ic_arrow_down_24dp"
+                    app:backgroundSelector="@drawable/selector_nice_spinner"
+                    app:textTint="@color/white"
+                    tools:text="international" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_station_name_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:background="@color/trans_black"
+                android:ellipsize="marquee"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_station_name"
+                tools:text="Station 1 / Jazz" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50">
+
+            <include
+                layout="@layout/custom_exo_playback_control_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/tv_station"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:padding="5dp"
+                android:text="@string/label_stations"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_station_label" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_category_fms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/rl_player_control"
+                android:layout_below="@+id/tv_station"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="3dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:background="@drawable/back_circle_filled"
+        android:id="@+id/iv_visual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_equalizer"
+        app:layout_anchor="@id/tv_station_name_category"
+        app:layout_anchorGravity="bottom|end" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

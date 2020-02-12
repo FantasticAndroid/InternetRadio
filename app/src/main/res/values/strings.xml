@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Radio Internet</string>
+    <string name="label_stations">Stations</string>
+    <string name="label_pause">Pause</string>
+    <string name="label_play">Play</string>
+    <string name="btn_ok">Ok</string>
+    <string name="alert_title_error">Error!</string>
+    <string name="alert_title_success">Success</string>
+    <string name="alert_title_failed">Failed!</string>
+
+    <string name="alert_network_not_exist">Network not exist. Please check your network connection.</string>
+    <!--<string name="btn_ok">Ok</string>-->
+    <string name="error_play_fm">यह स्टेशन प्ले करने में अक्षम. कृपया कोई और स्टेशन प्ले करें.</string>
+</resources>

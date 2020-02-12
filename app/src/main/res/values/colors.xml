@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_color">@color/blue</color>
+    <color name="trans_black">#CC000000</color>
+    <color name="popup_divider_color">#99565656</color>
+    <color name="colorPrimary">#dd4b00</color>
+    <color name="colorPrimaryDark">#cc3a00</color>
+    <color name="colorAccent">@color/blue</color>
+    <color name="color_visual">#FFFFFF</color>
+    <color name="blue">#005fbc</color>
+    <color name="fmenu_ripple">#1D000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="trans_white">#E6FFFFFF</color>
+</resources>

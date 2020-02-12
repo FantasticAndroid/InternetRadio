@@ -1,0 +1,145 @@
+{
+  "data": {
+    "FmRadio": [
+      {
+        "radio_id": "1",
+        "radio_name": "SunriseFM",
+        "radio_url": "http://185.66.249.48:9600/stream",
+        "radio_icon": "sunrise.png",
+        "radio_category_id": "1001",
+        "radio_channel_id": "101"
+      },
+      {
+        "radio_id": "2",
+        "radio_name": "Radio Afsana",
+        "radio_url": "http://174.36.206.197:7019/stream",
+        "radio_icon": "afsana_radio.png",
+        "radio_category_id": "1001",
+        "radio_channel_id": "101"
+      },
+      {
+        "radio_id": "3",
+        "radio_name": "Masala Radio",
+        "radio_url": "http://s9.voscast.com:7354",
+        "radio_icon": "masala.png",
+        "radio_category_id": "1001",
+        "radio_channel_id": "101"
+      },
+      {
+        "radio_id": "4",
+        "radio_name": "Radio Hindi International",
+        "radio_url": "http://188.166.176.244:8012/stream",
+        "radio_icon": "radio_image_38.png",
+        "radio_category_id": "1004",
+        "radio_channel_id": "101"
+      },
+      {
+        "radio_id": "5",
+        "radio_name": "Desi Music Mix!",
+        "radio_url": "http://50.7.68.251:7064/stream",
+        "radio_icon": "desi_music_mix_0.png",
+        "radio_category_id": "1001",
+        "radio_channel_id": "101"
+      },
+      {
+        "radio_id": "6",
+        "radio_name": "Hindi Desi Bollywood Evergreen Hits New",
+        "radio_url": "http://192.240.102.133:11454/stream",
+        "radio_icon": "hits_new_0.png",
+        "radio_category_id": "1004",
+        "radio_channel_id": "101"
+      },
+      {
+        "radio_id": "7",
+        "radio_name": "Radio HSL - India&amp;#039;s No.1 - Top 40 Superhits Station",
+        "radio_url": "http://50.7.68.251:7064/stream",
+        "radio_icon": "radio_hsl.png",
+        "radio_category_id": "1004",
+        "radio_channel_id": "101"
+      },
+      {
+        "radio_id": "8",
+        "radio_name": "Taal Radio",
+        "radio_url": "http://192.151.153.234:9998/taal",
+        "radio_icon": "taal.png",
+              "radio_category_id": "1004",
+        "radio_channel_id": "101"
+      },
+      {
+        "radio_id": "9",
+        "radio_name": "VirtualDJ Radio PowerBase",
+        "radio_url": "http://52.0.120.216:8000/channel4.mp3",
+        "radio_icon": "radiover7.png",
+        "radio_category_id": "1003",
+        "radio_channel_id": "102"
+      },
+      {
+        "radio_id": "10",
+        "radio_name": "Heart Hits",
+        "radio_url": "http://78.31.65.20:8880/heart.mp3",
+        "radio_icon": "picassent.png",
+        "radio_category_id": "1002",
+        "radio_channel_id": "102"
+      },
+      {
+        "radio_id": "11",
+        "radio_name": "xxxRock.fm",
+        "radio_url": "http://23.29.71.154:8140/stream",
+        "radio_icon": "radiover14_0.png",
+        "radio_category_id": "1002",
+        "radio_channel_id": "102"
+      },
+      {
+        "radio_id": "12",
+        "radio_name": "Pulse Trance",
+        "radio_url": "http://51.15.76.3/pulstranceHD.mp3",
+        "radio_icon": "radiover12.png",
+        "radio_category_id": "1003",
+        "radio_channel_id": "102"
+      },
+      {
+        "radio_id": "13",
+        "radio_name": "Dance Wave!",
+        "radio_url": "http://78.31.65.20:8080/",
+        "radio_icon": "radiover6_0.png",
+        "radio_category_id": "1003",
+        "radio_channel_id": "102"
+      }
+    ],
+    "radio_channels": [
+      {
+        "radio_channel_name": "Hindi",
+        "radio_channel_id": "101"
+      },
+      {
+        "radio_channel_name": "English",
+        "radio_channel_id": "102"
+      }
+    ],
+    "radio_category": [
+      {
+        "radio_category_name": "Bollywood",
+        "radio_category_id": "1001",
+        "radio_channel_id": "101"
+      },
+      {
+        "radio_category_name": "Pop",
+        "radio_category_id": "1002",
+        "radio_channel_id": "102"
+      },
+      {
+        "radio_category_name": "Dance",
+        "radio_category_id": "1003",
+        "radio_channel_id": "102"
+      },
+      {
+        "radio_category_name": "Top Radio",
+        "radio_category_id": "1004",
+        "radio_channel_id": "101"
+      }
+    ]
+  },
+  "code": 200,
+  "message": "Ok",
+  "time": 0
+}
